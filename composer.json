@@ -50,9 +50,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-      "post-root-package-install": [
-        "php -r \"copy('.env.example', '.env');\""
-      ],
       "test": [
         "phpcs"
       ]
