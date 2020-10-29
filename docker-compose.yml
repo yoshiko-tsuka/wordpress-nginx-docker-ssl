@@ -31,12 +31,12 @@ services:
     command: mysqld --skip-name-resolve
     volumes:
       - db-store:/var/lib/mysql
-      - ./docker/initdb/:/docker-entrypoint-initdb.d
+      #- ./docker/initdb/:/docker-entrypoint-initdb.d
     environment:
       - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
       - MYSQL_DATABASE=${DB_NAME}
       - MYSQL_USER=${DB_USER}
-    # restart: always
+    restart: always
     ports:
       - '3306:3306'
   phpmyadmin:

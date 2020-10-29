@@ -20,15 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+/** db name must be the same as DB_NAME in .env */
 define( 'DB_NAME', 'local-new' );
 
 /** MySQL database username */
+/** user name must be 'root' */
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
+/** db name must be the same as DB_PASSWORD in .env */
 define( 'DB_PASSWORD', 'password' );
 
 /** MySQL hostname */
+/** db name must be the same as DB_HOST in .env */
 define( 'DB_HOST', 'mysql' );
 
 /** Database Charset to use in creating database tables. */
@@ -46,14 +50,15 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '%nSUts=^HBNBg^E3;7+@a/y2[N#p`8`2+}nM]G&6dC7r0SO@uY#qCMqqsUd[=FGp' );
-define( 'SECURE_AUTH_KEY',  'a)%L9$!@n6@Gs0g<)VxC>er&#JQqdKyrr|c5@;g/OLegprd-_aO`>7qW4CVKE&U>' );
-define( 'LOGGED_IN_KEY',    ';JbO[eU&B1lr1U]u/XjWLCmgSG=hH<@Ltn@p|)LkL%cuhw:!NKP}GcBVLy4*(}4o' );
-define( 'NONCE_KEY',        'sZ!@RVD^;X!p._4(Lsu:_SLyR6C:#@Cj`!,Y!@#%<GZ}wm3IM7=i<tM[JRGdL)t[' );
-define( 'AUTH_SALT',        'KHH@N2j|<-_%.I])7x/Bp;&8mqe3<m,;n_AXRpL6w/N]sxN+(7%C1&=(8b7paP.,' );
-define( 'SECURE_AUTH_SALT', 'c3^7tg-uNglwC6V$Efi6jf&2^dJ!KD^sQlKwi_]X..Ll/._enJ{<UIo^o.uSb)$#' );
-define( 'LOGGED_IN_SALT',   '8)|yl*YryG;.K)2>qx<?2,n[raw/>I:dx+K|wWiQ&?<xb4d0D:{Ib$gIB4(&{j(X' );
-define( 'NONCE_SALT',       'mV<#Nvq6n_/<g!gMxNUYVaQy+u$yM>01MtRd9glxmL<NTble)F|<;i#Vhpp%G`Xm' );
+# Generate your keys here: https://roots.io/salts.html
+define( 'AUTH_KEY',         'generate me !!' );
+define( 'SECURE_AUTH_KEY',  'generate me !!' );
+define( 'LOGGED_IN_KEY',    'generate me !!' );
+define( 'NONCE_KEY',        'generate me !!' );
+define( 'AUTH_SALT',        'generate me !!' );
+define( 'SECURE_AUTH_SALT', 'generate me !!' );
+define( 'LOGGED_IN_SALT',   'generate me !!' );
+define( 'NONCE_SALT',       'generate me !!' );
 
 /**#@-*/
 
