@@ -116,9 +116,9 @@ PhpMyAdmin comes installed as a service in docker-compose.
 
 login info ID:root Password: DB_PASSWORD (in .env)
 
-you can get a sql backup file on this PhpMyAdmin page!
+> you can get a sql backup file on this PhpMyAdmin page!
 
-put the sql backup file to docker/initdb to set the same data in database next time!!
+> put the sql backup file to docker/initdb to set the same data in database next time!!
 
 ## MailHog
 
