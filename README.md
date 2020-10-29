@@ -20,7 +20,7 @@ My deepest thanks to Developer [Urban Sandén](https://github.com/urre) !!
 + Openssl for creatng the SSL cert. Install using Homebrew `brew install openssl`
 
 ### Setup environment variables
-edit `.env` your preferences.(APP_NAME: only [a-zA-Z0-9][a-zA-Z0-9_.-] are allowed)
+edit `.env` as your preferences.(APP_NAME: only [a-zA-Z0-9][a-zA-Z0-9_.-] are allowed)
 
 Example:
 
@@ -37,7 +37,7 @@ DB_USER=db_user
 ```
 
 ### Setup wp-config.php
-edit `wp-config.php` your preferences.
+edit `wp-config.php` as your preferences.
 
 Example:
 
