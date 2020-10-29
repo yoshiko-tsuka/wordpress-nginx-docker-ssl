@@ -1,7 +1,7 @@
-# wordpress-nginx-docker-ssh for macOS
+# wordpress-nginx-docker-ssl for macOS
 docker-compose:
 
-nginx(latest) + PHP(7.4-fpm) with wordpress files + mysql(5.7.26) + ssh + mailhog + phpmyadmin
+nginx(latest) + PHP(7.4-fpm) with wordpress files + mysql(5.7.26) + ssl + mailhog + phpmyadmin
 
 this docker files are based on
 
