@@ -1,11 +1,17 @@
 # wordpress-nginx-docker-ssh for macOS
 docker-compose:
+
 nginx(latest) + PHP(7.4-fpm) with wordpress files + mysql(5.7.26) + ssh + mailhog + phpmyadmin
 
-this docker files are based on 
+this docker files are based on
+
 [https://github.com/urre/wordpress-nginx-docker-compose](https://github.com/urre/wordpress-nginx-docker-compose)
+
 and
+
 [https://github.com/urre/wordpress-nginx-docker-compose-image](https://github.com/urre/wordpress-nginx-docker-compose-image)
+
+My deepest thanks to Developer [Urban Sandén](https://github.com/urre) !!
 
 ## Setup
 
@@ -109,7 +115,9 @@ PhpMyAdmin comes installed as a service in docker-compose.
 🚀 Open [http://127.0.0.1:8080/](http://127.0.0.1:8080/) in your browser
 
 login info ID:root Password: DB_PASSWORD (in .env)
+
 you can get sql backup file on this PhpMyAdmin page!
+
 put the sql backup file to docker/initdb to set the same data in database next time!!
 
 ## MailHog
